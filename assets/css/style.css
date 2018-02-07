@@ -1,0 +1,96 @@
+@media only screen and (max-width : 767px){
+  /*MENÚ*/
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #principal {
+    background-color: #515A5A;
+    height: 3.7vh;
+        width: 175px;
+    width: 100%;
+  }
+
+  #principal li{
+    list-style: none;
+    display: inline-block;
+  }
+
+  #edge, #hrs, .fa-wifi, .fa-battery-three-quarters {
+    color: #FFF;
+  }
+
+  .fa-wifi {
+    margin-left: 5px;
+  }
+
+  #hrs {
+    margin-left: 25%;
+  }
+
+  .fa-battery-three-quarters {
+    margin-left: 75px;
+  }
+
+  /*CUADROS COLLAGE*/
+  #square {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin-top: 2%;
+  }
+
+  #square1 {
+    border: 1px solid black;
+    width: 175px;
+    height: 310px;
+    margin-left: 45%;
+    margin-top: -43%;
+  }
+
+  #square2 {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin-top: -44%;
+  }
+
+  /*LINEA DE CARRETE*/
+  #carrete {
+    background-color: #515A5A;
+    height: 7vh;
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  #carrete p {
+    color: #5DADE2;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2.5%;
+  }
+
+/*FOTOS*/
+  #line1 {
+    margin-top: 2%;
+  }
+
+  img {
+    width: 25%;
+    height: 85%;
+    margin-left: -1%;
+  }
+
+  #line2{
+    margin-top: -4%;
+  }
+
+  img.over {
+    border: 2px dashed #000;
+  }
+
+
+
+}
