@@ -1,3 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#principal {
+    background-color: #515A5A;
+    height: 3.7vh;
+    width: 100%;
+  }
+
+  #principal li{
+    list-style: none;
+    display: inline-block;
+  }
+
+  #edge, #hrs, .fa-wifi, .fa-battery-three-quarters {
+    color: #FFF;
+  }
+
+  .fa-wifi {
+    margin-left: 5px;
+  }
+
+  #hrs {
+    margin-left: 40%;
+  }
+
+  .fa-battery-three-quarters {
+    margin-left: 450px;
+  }
+
+  /*CUADROS COLLAGE*/
+  #square {
+    border: 1px solid black;
+    width: 400px;
+    height: 250px;
+    margin-top: 2%;
+    margin-left: 58.5%;
+  }
+
+  #square1 {
+    border: 1px solid black;
+    width: 400px;
+    height: 250px;
+    margin-left: -50%;
+    margin-top: 75%;
+  }
+
+  #square2 {
+    border: 1px solid black;
+    width: 400px;
+    height: 505px;
+    margin-top: 2%;
+    margin-left: -40%;
+  }
+
+  /*LINEA DE CARRETE*/
+  #carrete {
+    background-color: #515A5A;
+    height: 7vh;
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  #carrete p {
+    color: #5DADE2;
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    text-align: center;
+  }
+
+/*FOTOS*/
+  #line1 {
+    margin-top: 2%;
+  }
+
+  img {
+    width: 20%;
+    height: 85%;
+    margin-left: 10%;
+  }
+
+  #line2{
+    margin-top: -4%;
+  }
+
+  img.over {
+    border: 2px dashed #000;
+  }
+
+
 @media only screen and (max-width : 767px){
   /*MENÚ*/
   * {
